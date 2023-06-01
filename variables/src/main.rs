@@ -15,36 +15,36 @@ fn variables() {
     println!("The value of x is: {x}");
 
     // ints
-    let y: u8 = 5;
+    let _y: u8 = 5;
 
     // floats
-    let x = 2.0; // f64
+    let _x = 2.0; // f64
 
-    let y: f32 = 3.0; // f32
+    let _y: f32 = 3.0; // f32
 
     // addition
-    let sum = 5 + 10;
+    let _sum = 5 + 10;
 
     // subtraction
-    let difference = 95.5 - 4.3;
+    let _difference = 95.5 - 4.3;
 
     // multiplication
-    let product = 4 * 30;
+    let _product = 4 * 30;
 
     // division
-    let quotient = 56.7 / 32.2;
-    let truncated = -5 / 3; // Results in -1
+    let _quotient = 56.7 / 32.2;
+    let _truncated = -5 / 3; // Results in -1
 
     // remainder
-    let remainder = 43 % 5;
+    let _remainder = 43 % 5;
 
     // booleans
-    let f: bool = false; // with explicit type annotation
+    let _f: bool = false; // with explicit type annotation
 
     // chars
-    let c = 'z';
-    let z: char = 'ℤ'; // with explicit type annotation
-    let heart_eyed_cat = '😻';
+    let _c = 'z';
+    let _z: char = 'ℤ'; // with explicit type annotation
+    let _heart_eyed_cat = '😻';
 
     // tuple
     let tup: (i32, f64, u8) = (500, 6.4, 1);
