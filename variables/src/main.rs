@@ -132,7 +132,6 @@ fn loops() {
 
     println!("The result is {result}");
 
-
     let mut count = 0;
     // this is a loop label, so you can break out of a specific loop within an inner loop.
     'counting_up: loop {
